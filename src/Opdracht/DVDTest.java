@@ -80,6 +80,7 @@ public class DVDTest {
         String videotheekTicket = d.getInformationDVD();
         assertEquals(" -> Kaan - Avengers - science fiction - discount false - 15.0 - 8/10/2020", videotheekTicket);
     }
+    
 
     @Test
     void TwoTicketWithOneDiscountAndOneWithout() {
